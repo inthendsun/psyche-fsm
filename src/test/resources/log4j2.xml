@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="WARN">
+
+	<Properties>
+	</Properties>
+ 	
+	<appenders>
+	
+		<Console name="STDOUT" target="SYSTEM_OUT">
+      		<PatternLayout>
+				<Pattern>%d{HH:mm:ss.SSS} [%thread] %-5level -%c{1} - %msg%n</Pattern>
+				<Charset>UTF-8</Charset>
+			</PatternLayout>
+    	</Console>
+		
+	</appenders>
+
+	<loggers>
+		
+		<Root level="INFO">
+     	 <AppenderRef ref="STDOUT"/>
+    	</Root>
+		
+	</loggers>
+	
+</configuration>
